@@ -4,8 +4,12 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#55bcd4">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="screenshot.png" type="image/png"/>
+  <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-precomposed.png">
 
-  <title>Push Codelab</title>
+  <title>PWA Push Notification</title>
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
@@ -16,15 +20,18 @@
 <body>
 
   <header>
-    <h1>Push Codelab</h1>
+    <h1>PWA Push Notification</h1>
   </header>
 
   <main>
-    <p>Welcome to the push messaging codelab. The button below needs to be
-    fixed to support subscribing to push.</p>
     <p>
       <button disabled class="js-push-btn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
         Enable Push Messaging
+      </button>
+    </p>
+    <p>
+      <button class="js-push-message-test-btn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+        Push message test
       </button>
     </p>
     <section class="subscription-details js-subscription-details is-invisible">
@@ -39,7 +46,7 @@
     </section>
   </main>
 
-  <script src="scripts/main.js"></script>
+  <script src="scripts/main.js?v=2"></script>
 
   <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
 </body>

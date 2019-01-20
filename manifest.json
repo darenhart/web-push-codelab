@@ -1,0 +1,21 @@
+{
+  "name": "PWA notification test",
+  "short_name": "PWA-noti",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#55bcd4",
+  "theme_color": "#55bcd4",
+  "description": "PWA-noti description. A Progressive Web App.",
+  "icons": [
+    {
+      "src": "screenshot.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "screenshot.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
